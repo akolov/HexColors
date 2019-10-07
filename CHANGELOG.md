@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 `HexColors` adheres to [Semantic Versioning](http://semver.org/).
 
 ---
+## [6.0.1] (https://github.com/mRs-/HexColors/tree/6.0.0)
+* Swift 5
+* Set application extension API flag
+
 ## [6.0.0] (https://github.com/mRs-/HexColors/tree/6.0.0)
 * Swift 4
 
