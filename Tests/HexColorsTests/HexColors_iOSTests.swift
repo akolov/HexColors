@@ -6,6 +6,8 @@
 //  Copyright © 2016 Marius Landwehr. All rights reserved.
 //
 
+#if canImport(UIKit)
+import UIKit
 import XCTest
 @testable import HexColors
 
@@ -159,3 +161,5 @@ class HexColors_iOSTests: XCTestCase {
     }
   }
 }
+
+#endif

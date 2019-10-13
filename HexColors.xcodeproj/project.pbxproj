@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		293AB3451E111F0B004A4946 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293AB33C1E111F0B004A4946 /* HexColors.framework */; };
-		293AB34A1E111F0B004A4946 /* HexColors_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293AB3491E111F0B004A4946 /* HexColors_iOSTests.swift */; };
 		293AB34C1E111F0B004A4946 /* HexColors-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 293AB33E1E111F0B004A4946 /* HexColors-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		293AB3531E111F20004A4946 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293AB3341E111E88004A4946 /* HexColors.swift */; };
 		293AB3621E111F53004A4946 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293AB3591E111F53004A4946 /* HexColors.framework */; };
-		293AB3671E111F53004A4946 /* HexColors_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293AB3661E111F53004A4946 /* HexColors_macOSTests.swift */; };
 		293AB3691E111F53004A4946 /* HexColors-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 293AB35B1E111F53004A4946 /* HexColors-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		293AB3701E111F5A004A4946 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293AB3341E111E88004A4946 /* HexColors.swift */; };
+		FA507B0423535155008CF271 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA507B0323535155008CF271 /* HexColors.swift */; };
+		FA507B0623535175008CF271 /* HexColors_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA507B0523535175008CF271 /* HexColors_macOSTests.swift */; };
+		FA507B082353517E008CF271 /* HexColors_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA507B072353517E008CF271 /* HexColors_iOSTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		293AB3341E111E88004A4946 /* HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors.swift; sourceTree = "<group>"; };
 		293AB33C1E111F0B004A4946 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		293AB33E1E111F0B004A4946 /* HexColors-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HexColors-iOS.h"; sourceTree = "<group>"; };
 		293AB33F1E111F0B004A4946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293AB3441E111F0B004A4946 /* HexColors-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HexColors-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		293AB3491E111F0B004A4946 /* HexColors_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColors_iOSTests.swift; sourceTree = "<group>"; };
 		293AB34B1E111F0B004A4946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293AB3591E111F53004A4946 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		293AB35B1E111F53004A4946 /* HexColors-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HexColors-macOS.h"; sourceTree = "<group>"; };
 		293AB35C1E111F53004A4946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293AB3611E111F53004A4946 /* HexColors-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HexColors-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		293AB3661E111F53004A4946 /* HexColors_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColors_macOSTests.swift; sourceTree = "<group>"; };
 		293AB3681E111F53004A4946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295A522F1F88D20900C359F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		295A52301F88D34400C359F3 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		295A52311F88D52C00C359F3 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		295A52331F8A3D9300C359F3 /* HexColors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = HexColors.podspec; sourceTree = "<group>"; };
 		29E034CD1E1477EF00BC16BC /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		FA507B0323535155008CF271 /* HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors/HexColors.swift; sourceTree = "<group>"; };
+		FA507B0523535175008CF271 /* HexColors_macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexColors_macOSTests.swift; path = Tests/HexColorsTests/HexColors_macOSTests.swift; sourceTree = SOURCE_ROOT; };
+		FA507B072353517E008CF271 /* HexColors_iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexColors_iOSTests.swift; path = Tests/HexColorsTests/HexColors_iOSTests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +119,7 @@
 		293AB3361E111E96004A4946 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				293AB3341E111E88004A4946 /* HexColors.swift */,
+				FA507B0323535155008CF271 /* HexColors.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -137,7 +136,7 @@
 		293AB3481E111F0B004A4946 /* HexColors-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				293AB3491E111F0B004A4946 /* HexColors_iOSTests.swift */,
+				FA507B072353517E008CF271 /* HexColors_iOSTests.swift */,
 				293AB34B1E111F0B004A4946 /* Info.plist */,
 			);
 			path = "HexColors-iOSTests";
@@ -155,7 +154,7 @@
 		293AB3651E111F53004A4946 /* HexColors-macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				293AB3661E111F53004A4946 /* HexColors_macOSTests.swift */,
+				FA507B0523535175008CF271 /* HexColors_macOSTests.swift */,
 				293AB3681E111F53004A4946 /* Info.plist */,
 			);
 			path = "HexColors-macOSTests";
@@ -343,7 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293AB3531E111F20004A4946 /* HexColors.swift in Sources */,
+				FA507B0423535155008CF271 /* HexColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293AB34A1E111F0B004A4946 /* HexColors_iOSTests.swift in Sources */,
+				FA507B082353517E008CF271 /* HexColors_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293AB3701E111F5A004A4946 /* HexColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293AB3671E111F53004A4946 /* HexColors_macOSTests.swift in Sources */,
+				FA507B0623535175008CF271 /* HexColors_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,7 +617,6 @@
 		293AB36E1E111F53004A4946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "HexColors-macOSTests/Info.plist";
@@ -634,7 +631,6 @@
 		293AB36F1E111F53004A4946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "HexColors-macOSTests/Info.plist";
